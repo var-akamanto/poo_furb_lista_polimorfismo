@@ -1,0 +1,27 @@
+package models;
+
+public abstract class Funcionario {
+    public String nome;
+    public double salarioBase;
+
+    
+
+    public Funcionario(String nome, double salarioBase) {
+        this.nome = nome;
+        this.salarioBase = salarioBase;
+    }
+
+
+
+    public abstract double calcularSalario();
+
+
+
+    @Override
+    public String toString() {
+        return "Funcionario [nome=" + nome + ", salarioBase=" + salarioBase + ", calcularSalario()=" + calcularSalario()
+                + "]";
+    }
+
+    
+}
