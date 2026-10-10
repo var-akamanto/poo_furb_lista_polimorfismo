@@ -1,5 +1,7 @@
 package models.abstracts;
 
-public abstract class ContaBancaria {    
-    public abstract void sacar(double valor);    
+public class ContaBancaria {    
+    public double saldo;
+
+    public void sacar(double salario){};    
 }
