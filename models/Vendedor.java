@@ -1,5 +1,7 @@
 package models;
 
+import models.abstracts.Funcionario;
+
 public class Vendedor extends Funcionario {
     public double percentualComissao;
     public int ValorTotalVendas;

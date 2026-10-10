@@ -1,4 +1,4 @@
-package models;
+package models.abstracts;
 
 public abstract class Funcionario {
     public String nome;

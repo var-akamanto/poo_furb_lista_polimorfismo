@@ -1,5 +1,7 @@
 package models;
 
+import models.abstracts.Funcionario;
+
 public class Consultor extends Funcionario{
     public int qtdViagens;
     public double valorExtraPorViagem;

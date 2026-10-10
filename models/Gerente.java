@@ -1,5 +1,7 @@
 package models;
 
+import models.abstracts.Funcionario;
+
 public class Gerente extends Funcionario{
     public boolean metaAtingida;
     public double percentualBonus;
